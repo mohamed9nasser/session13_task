@@ -1,0 +1,107 @@
+/* إعدادات عامة للخطوط */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex; /* استخدام Flexbox */
+    flex-direction: column; /* عمودي */
+    min-height: 100vh; /* جعل ارتفاع الصفحة 100% من الشاشة */
+    text-align: center;
+}
+
+/* تنسيق الهيدر */
+nav {
+    background-color: #35424a;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* تنسيق عنوان الصفحات */
+h2 {
+    color: #35424a;
+}
+
+/* تنسيق الفورم */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* تنسيق الأزرار */
+button {
+    background-color: #35424a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #455a64;
+}
+
+/* تنسيق الجدول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #35424a;
+    color: white;
+}
+
+/* تنسيق الرسائل */
+p {
+    color: #076814; /* لون الرسائل الخطأ */
+}
+
+/* تنسيق الفوتر */
+footer {
+    background-color: #35424a; /* لون الخلفية */
+    color: white; /* لون النص */
+    text-align: center; /* محاذاة النص للوسط */
+    padding: 10px 0; /* حشوة من فوق ومن تحت */
+    margin-top: auto; /* دفع الفوتر للأسفل */
+    width: 100%; /* جعل الفوتر في عرض الصفحة بالكامل */
+}
+footer p {
+    color: #ffffff; /* لون الرسائل الخطأ */
+}
